@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
+  color: #202124;
+}
+
+header img {
+  height: 160px;
+  border-radius: 10px;
+}
+
+.body-container {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 24px;
+  border: 1px solid #dadce0;
+  gap: 20px;
+  background-color: #ffffff;
+}
+
+
+.strip {
+  background-color: #c4c1c1;
+  height: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.body-title {
+  font-size: 26px;
+  font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.statewise-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.statewise-link a {
+  font-size: 18px;
+}
+
+.eligibility {
+  font-size: 18px;
+}
